@@ -1,14 +1,19 @@
 import './App.css';
-import Account from './componentes/Account';
-import GenericButton from './componentes/GenericButton';
+import { BrowserRouter, Route } from "react-router-dom";
+
+// import BalanceProvider from './utils/context';
+import Principal from './paginas/Principal';
+import NuevasOperaciones from './paginas/NuevasOperaciones';
 import BalanceProvider from './utils/context';
 
 function App() {
   return (
     <div className="App">
-      <BalanceProvider >
-        <Account/>
-        <GenericButton/>
+      <BalanceProvider>
+        <BrowserRouter>
+          <Route exact path="/" component={Principal} />
+          <Route exact path="/new" component={NuevasOperaciones} />
+        </BrowserRouter>
       </BalanceProvider>
     </div>
   );
