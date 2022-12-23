@@ -1,14 +1,14 @@
 import React, { createContext, useState } from 'react';
 import {dataFixed} from './constantes'
-export const accountContext = createContext();
+export const AccountContext = createContext();// agregar mayuscula
 
 const BalanceProvider = ({ children }) => {
 
     const [data, setData] = useState(dataFixed);
     return (
-        <accountContext.Provider  value={{data,setData}}>
+        <AccountContext.Provider  value={{data,setData}}>
             {children}
-        </accountContext.Provider>
+        </AccountContext.Provider>
     );
 }
 export default BalanceProvider;

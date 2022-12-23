@@ -1,0 +1,61 @@
+{
+    "userAccounts": [
+        {
+            "nombre":"Eugenio",
+            "apellido":"Braidot",
+            "credential": [
+                {
+                    "user": "eubraidot"
+                },
+                {
+                    "password": "12345678"
+                }
+            ],
+            "rol": "1"
+        }
+    ],
+    "accounts": [
+        {
+            "id": "eubraidot@gmail.com",
+            "creationDate:": "2021-08-21",
+            "idMoney": "2",
+            "amountBalance": "0,00"
+        },
+        {
+            "id": "eubraidot@gmail.com",
+            "creationDate:": "2021-08-21",
+            "idMoney": "1",
+            "amountBalance": "0,00"
+        },
+        {
+            "id": "eubraidot@gmail.com",
+            "creationDate:": "2021-08-21",
+            "idMoney": "3",
+            "amountBalance": "0,00"
+        }
+    ],
+    "money": [
+        {
+            "id": "1",
+            "description": "ARS"
+        },
+        {
+            "id": "2",
+            "description": "USD"
+        },
+        {
+            "id": "2",
+            "description": "XRP"
+        }
+    ],
+    "roles": [
+        {
+            "id": "1",
+            "rol": "admin"
+        },
+        {
+            "id": "2",
+            "rol": "user"
+        }
+    ]
+}

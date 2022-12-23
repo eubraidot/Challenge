@@ -12,7 +12,9 @@ function App() {
       <BalanceProvider>
         <BrowserRouter>
           <Route exact path="/" component={Principal} />
-          <Route exact path="/new" component={NuevasOperaciones} />
+          <Route exact path="/new/:idOperacion/:idTypeOperation">
+            <NuevasOperaciones/>
+          </Route>
         </BrowserRouter>
       </BalanceProvider>
     </div>

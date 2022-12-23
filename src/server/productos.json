@@ -1,0 +1,59 @@
+[
+    {
+        "id":"10",
+        "codigoBarras":"8917028017983172987123",
+        "descripcion":"Mayonesa Molto x100gr",
+        "descripcionCorta":"MMOL100",
+        "pesoNeto":"100",
+        "unidadMedida":"gr",
+        "precios": [
+            {
+                "PrecioMayorista":"350.00"
+            },
+            {
+                "PrecioFinal":"400.00"
+            },
+            {
+                "PrecioSinIva":"362.80"
+            }
+        ]
+    },
+    {
+        "id":"10",
+        "codigoBarras":"8917028017983172987123",
+        "descripcion":"Mayonesa Molto x100gr",
+        "descripcionCorta":"MMOL100",
+        "pesoNeto":"100",
+        "unidadMedida":"gr",
+        "precios": [
+            {
+                "PrecioMayorista":"350.00"
+            },
+            {
+                "PrecioFinal":"400.00"
+            },
+            {
+                "PrecioSinIva":"362.80"
+            }
+        ]
+    },
+    {
+        "id":"10",
+        "codigoBarras":"8917028017983172987123",
+        "descripcion":"Mayonesa Molto x100gr",
+        "descripcionCorta":"MMOL100",
+        "pesoNeto":"100",
+        "unidadMedida":"gr",
+        "precios": [
+            {
+                "PrecioMayorista":"350.00"
+            },
+            {
+                "PrecioFinal":"400.00"
+            },
+            {
+                "PrecioSinIva":"362.80"
+            }
+        ]
+    }
+]
